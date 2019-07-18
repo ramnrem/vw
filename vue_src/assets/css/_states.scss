@@ -1,0 +1,99 @@
+.created {
+  .el-badge__content {
+    background: $created-background;
+    color: $created-font;
+  }
+}
+
+.success {
+  .el-badge__content {
+    background: $completed-background;
+    color: $completed-font;
+  }
+}
+
+.failed {
+  .el-badge__content {
+    background: red;
+    color: white;
+  }
+}
+
+.completed {
+  .el-badge__content {
+    background: $completed-background;
+    color: $completed-font;
+  }
+}
+
+.deleted {
+  .el-badge__content {
+    background: $deleted-background;
+    color: $deleted-font;
+  }
+}
+
+.draft {
+  .el-badge__content {
+    background: #636363;
+    color: #ffffff;
+  }
+}
+
+.low_quality {
+  .el-badge__content {
+    background: $low_quality-background;
+    color: $low_quality-font;
+  }
+}
+
+.in_progress {
+  .el-badge__content {
+    background: $in_progress-background;
+    color: $in_progress-font;
+  }
+}
+
+.processed {
+  .el-badge__content {
+    background: $processed-background;
+    color: $processed-font;
+  }
+}
+
+.canceled {
+  .el-badge__content {
+    background: $canceled-background;
+    color: $canceled-font;
+  }
+}
+
+.confirmed {
+  .el-badge__content {
+    background: $confirmed-background;
+    color: $confirmed-font;
+  }
+}
+
+.conducted {
+  .el-badge__content {
+    background: $conducted-background;
+    color: $conducted-font;
+  }
+}
+
+.calculated {
+  .el-badge__content {
+    background: $calculated-background;
+    color: $calculated-font;
+  }
+}
+
+.jobs {
+  .in_progress {
+    .el-badge__content {
+      background: blue;
+      color: #ffffff;
+    }
+  }
+}

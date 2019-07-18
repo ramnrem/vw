@@ -1,0 +1,24 @@
+.v-cost-price{
+  $color: #3BC8F5;
+
+  border:$color 1px solid;
+  padding: 12px;
+  background: transparentize($color, 0.95);
+  margin-bottom: 18px;
+
+  &__name {
+    margin-bottom: 12px;
+  }
+
+  &__details {
+    font-size: 12px;
+    border: $color 1px solid;
+    width: 100%;
+    background-color: transparentize($color, 0.9);
+    margin-bottom: 12px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

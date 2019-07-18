@@ -1,0 +1,50 @@
+.el-form {
+  background: #fff;
+  padding: 12px;
+}
+.el-form--label-top {
+  .el-form-item {
+    &__label {
+      line-height: inherit;
+    }
+  }
+}
+
+.el-form-item--base-percent-inline {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+
+  label {
+    padding: 0px 10px 0 0 !important;
+  }
+}
+
+.checkbox-column {
+  display: block;
+  margin-left: 30px;
+}
+
+.el-form-actions {
+   border-top: 3px #eef2f4 solid;
+   background: #fff;
+   padding: 12px;
+}
+
+.el-form-item--no-label {
+  margin-bottom: 0px;
+
+  .el-form-item__content {
+    line-height: inherit;
+  }
+}
+
+.el-form-item {
+  span {
+    font-size: 14px;
+  }
+
+  &--inline {
+    margin-right: 18px;
+  }
+}

@@ -1,0 +1,29 @@
+.el-dialog {
+  background: #ffffff;
+  
+  &__body {
+    padding: 0 20px 30px 20px;
+  }
+
+  &--relation-input {
+    .el-dialog {
+      &__header {
+        padding: 0 0 10px 0;
+      }
+
+      &__title-container {
+        padding: 0 12px;
+      }
+
+      &__title {
+        display: block;
+        font-size: 26px;
+        font-weight: 400;
+        height: 40px;
+        line-height: 40px;
+        white-space: nowrap;
+        margin: 0;
+      }
+    }
+  }
+}

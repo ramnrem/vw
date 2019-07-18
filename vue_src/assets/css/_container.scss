@@ -1,0 +1,30 @@
+.container {
+  margin-right: 63px;
+  background-color: #eef2f4;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main {
+  flex: 1;
+}
+
+.main {
+  padding: 0;
+}
+
+.el-row_calendar-filter {
+  padding: 12px;
+  background: #fff;
+}
+
+.el-content {
+  &--calendar {
+    background: #fff;
+  }
+}
+
+pre {
+  font-family: 'Open Sans', sans-serif;  
+}

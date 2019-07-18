@@ -1,0 +1,13 @@
+.draggable {
+  cursor: move;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  font-size: 13px;
+  padding: 3px;
+  border-top: 1px solid #ebeef5;
+}
+
+.el-collapse {
+  border-top: none;
+}

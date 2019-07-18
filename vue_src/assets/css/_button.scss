@@ -1,0 +1,36 @@
+.el-button--primary {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.el-button--default {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.el-button {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.el-button--primary {
+  color: #fff !important;
+  background-color: #3bc8f5 !important;
+}
+
+.el-input-group__append {
+  .el-button--primary {
+    border-radius: 0 !important;
+  }
+}
+
+.h-40 {
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.el-radio-button {
+  &__inner {
+    padding: 13px 20px !important;
+  }
+}

@@ -1,0 +1,38 @@
+.qb-group {
+  background-color: white;
+
+  &__type{
+    margin-bottom: 15px;
+  }
+
+  &_depth-1 {
+
+  }
+
+  &_depth-2 {
+    padding: 10px;
+    border-left: 2px solid #8bc34a;
+    background-color: whitesmoke;
+  }
+
+  &_depth-3 {
+    padding: 10px;
+    border-left: 2px solid #00bcd4;
+    background-color: white;
+  }
+
+  &_depth-4 {
+    padding: 10px;
+    border-left: 2px solid #ff5722;
+    background-color: whitesmoke;
+  }
+}
+
+.qb-children {
+  margin-top: 15px;
+}
+
+.qb-rule {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

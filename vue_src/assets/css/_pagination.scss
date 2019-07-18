@@ -1,0 +1,22 @@
+.el-pagination {
+  width: 100%;
+  background: #fff;
+  border-bottom: 2px #eef2f4 solid;
+  border-top: 2px #eef2f4 solid;
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+
+  &:before {
+    display: none;
+    content: none;
+  }
+  &:after {
+    content: none;
+  }
+
+  &--top {
+     border-top: none;
+  }
+}

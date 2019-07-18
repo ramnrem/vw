@@ -1,0 +1,39 @@
+.el-card {
+  background-color: inherit;
+  border: none;
+  box-shadow: none;
+
+  &__title {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 40px;
+    white-space: nowrap;
+  }
+
+  &__header {
+    padding: 18px 12px;
+    border-bottom: 1px solid #dce2e6;
+  }
+
+  &__body {
+    padding: 0;
+  }
+
+  &__breadcrumb {
+    height: 44px;
+    padding: 0 12px;
+    border-bottom: 1px solid #dce2e6;
+  }
+}
+
+.el-card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__title {
+    width: auto;
+  }
+}

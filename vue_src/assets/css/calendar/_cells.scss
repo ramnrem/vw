@@ -1,0 +1,93 @@
+&--trainer-absence {
+  background-color: #d2e9ff;
+  
+  .calendar-event__title {
+    color: #000000;
+  }
+}
+
+&--cost-price-completed {
+  background-color: $completed-background;
+
+  .calendar-event__title {
+    color: $completed-font;
+  }
+}
+
+&--cost-price-in_progress {
+  background-color: $in_progress-background;
+
+  .calendar-event__title {
+    color: $in_progress-font;
+  }
+}
+
+&--cost-price-processed {
+  background-color: $processed-background;
+
+  .calendar-event__title {
+    color: $processed-font;
+  }
+}
+
+&--cost-price-created {
+  background-color: $created-background;
+
+  .calendar-event__title {
+    color: $created-background;
+  }
+}
+
+&--cost-price-calculated {
+  background-color: $calculated-background;
+
+  .calendar-event__title {
+    color: $calculated-font;
+  }
+}
+
+&--cost-price-confirmed {
+  background-color: $confirmed-background;
+
+  .calendar-event__title {
+    color: $confirmed-font;
+  }
+}
+
+&--cost-price-conducted {
+  background-color: $conducted-background;
+
+  .calendar-event__title {
+    color: $conducted-font;
+  }
+}
+
+&--cost-price-canceled {
+  background-color: $canceled-background;
+
+  .calendar-event__title {
+    color: $canceled-font;
+  }
+}
+
+&--room-reservation-confirmed {
+  background: #B3FFBF;
+  color: #000000;
+
+  .calendar-event__title {
+    color: #000000;
+  }
+}
+
+&--room-reservation-created {
+  background: #B3FFBF;
+  color: #000000;
+
+  .calendar-event__title {
+    color: #000000;
+  }
+}
+
+&--exchange-event {
+  background: #fdda51;
+}

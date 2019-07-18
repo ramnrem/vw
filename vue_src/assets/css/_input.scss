@@ -1,0 +1,19 @@
+.l-input-search {
+  margin: 0 12px 0 24px;
+  width: 100%;
+
+  &--search-dialog {
+    margin: 0 12px 0 0;
+  }
+}
+
+.el-input--search {
+  max-width: 800px;
+  width: 100%;
+}
+
+.el-input--gray {
+  .el-input__inner {
+    background-color: lightgray !important;
+  }
+}
